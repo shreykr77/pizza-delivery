@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "rosa-starter",
     "streamlit>=1.65.0",
 ]
 
@@ -17,3 +18,6 @@ pizza-delivery = "pizza_delivery.main:main"
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+rosa-starter = { git = "https://github.com/zhouy185/rosa-starter.git", rev = "09f3f0b98fd2fee1ba08322bf8db12c4940590bd" }
