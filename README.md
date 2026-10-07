@@ -2,6 +2,8 @@
 
 Explore the live app: [Rosa's Pizza Delivery Optimizer](https://pizza-delivery-n8azg2abjcl2ejo9hphhqr.streamlit.app/)
 
+View the original notebook: [Rosa's Pizza Delivery Optimization on Google Colab](https://colab.research.google.com/drive/1czSOgRJfbrdW-l3ZdaaXMXT8U_oSEIzp?usp=sharing)
+
 ## About
 
 Rosa's Pizza Delivery Optimizer is an interactive Streamlit app for exploring delivery-time promises and their impact on order volume and profit. Choose one or more delivery zones and time blocks, then compare promise times independently for every selected zone/time-block combination.
